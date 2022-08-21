@@ -1,0 +1,90 @@
+body {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rodapé */
+
+footer {
+    background-color: #419488;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 207px;
+
+}
+
+#logo-footer {
+    height: 101,43px;
+}
+
+.link-footer {
+    margin-right: 8%;
+}
+
+.link-footer a {
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.button-footer button {
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    color: #FFFFFF;
+    background-color: #419488;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 289px;
+    height: 51px;
+    
+}
