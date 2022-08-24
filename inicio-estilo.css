@@ -1,26 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-img {
-
+.logo {
     padding-right: 65%;
     margin-left: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 40px;
-
+    padding-right: 10%;
 }
 
 #container-logo {
-
     background-color: #2E948A;
     display: flex;
     justify-content: center;
-    padding-right: 10%;
-    width: 1800px;
-    height: 82px;
+    height: 117px;
 }
 
 .link {
@@ -28,70 +24,215 @@ img {
     display: flex;
     height: 35%;
     width: 35%;
-    align-items: center;
     gap: 25%;
+    align-items: center;
     color: aliceblue;
     padding-top: 25px;
-    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700px;
     font-size: 20px;
     line-height: 23px;
-
 }
 
 a {
     text-decoration: none;
     color: aliceblue;
     text-transform: uppercase;
+}
 
+/* conteúdo principal - primeira section */
+
+.primeiro {
+    padding: 125px 206px 66px 206px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo-escrito {
+    width: 488px;
+    height: 216px;
+    margin: 0px 0px 20px 0px;
+}
+
+.conteudo-escrito h1 {
+    color: #FF4081; 
+    font-size: 60px;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.conteudo-escrito p {
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.conteudo-escrito button {
+    margin-top: 38px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    width: 268px;
+    height: 51px;
+    background-color: #FFFFFF;
+    font-size: 27px;
+    color: #FF4081;
+}
+
+.imagem-top {
+    margin: 0px;
+}
+
+#baner {
+    width: 501px;
+    height: 511px;
+}
+
+/* segundo section */
+
+.segundo {
+    height: 730px;
+    padding: 109px 128px 117px 119px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6F6F6;
+    text-align: center;
+    margin: 0px;
+    gap: 121px;
+}
+
+#poupando {
+    width: 288px;
+    height: 270px;
+}
+
+#investimento {
+    width: 238px;
+    height: 270px;
+}
+
+#independencia {
+    width: 187px;
+    height: 270px;
+}
+
+.sub-titulo {
+    margin-top: 45px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF4081;
+}
+
+.parag {
+    margin-top: 23px;
+    font-size: 17px;
+    font-weight: 300px;
+    width: 293px;
+    height: 60px;
+}
+
+.button {
+    margin-top: 26px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #FF4081;
+    width: 233px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 
 
+/* teceiro section */
 
+.terceiro {
+    padding: 119px 225px 165px 128px;
+}
 
+.titulo2 h2 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+}
 
+.column1-comente {
+    display:flex;
+    margin-top: 78px;
+    gap: 108px;
+}
 
+.column1-comente p {
+    width: 369px;
+    height: 73.65;
+}
 
+.c {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-family:'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24.55px;
+}
 
+.nome {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+}
 
+/* quarta section */
 
+.quarto {
+    padding: 91px 137px 53px 128px;
+    background-color: #E5E5E5;
+}
 
+.titulo3 {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 42.51px;
+    color: #009688;
+}
 
+.mais {
+    margin-top: 73px;
+    display: flex;
+    gap: 109px;
+}
 
+.mais h6 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 31.02px;
+    color: #009688;
+}
 
+.mais p {
+    width: 319px;
+    height: 114px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.68px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.quarto button {
+    width: 289px;
+    height: 51px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #E5E5E5;
+    font-size: 25px;
+    color: #FF4081;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 101px;
+}
 
 /* rodapé */
 
@@ -101,21 +242,17 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 207px;
-
 }
 
 #logo-footer {
-    height: 101,43px;
-}
-
-.link-footer {
-    margin-right: 8%;
+    height: 101, 43px;
 }
 
 .link-footer a {
     text-decoration: none;
     display: flex;
     font-size: 20px;
+    font-weight: 400;
     color: #FFFFFF;
 }
 
@@ -130,5 +267,5 @@ footer {
     align-items: center;
     width: 289px;
     height: 51px;
-    
+    margin-bottom: 13px;
 }
