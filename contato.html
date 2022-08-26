@@ -1,50 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inicio-estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2? família=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Inicio | Dindin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Dindin</title>
 </head>
 
 <body>
     <header>
-        <div id="container-logo">
-          <img class="logo" src="midia/logo-header.png" alt="logo" />
-        
-        <nav>
-          <a class="menu-item-link" href="./index.html">início</a>
-          <a class="menu-item-link" href="./lista-receitas.html">receitas</a>
-          <a class="menu-item-link" href="./contato.html">contato</a>
-        </nav>
+        <div class="header">
+            <div class="logo">
+                <a href=""><img src="img/logo-header.png" alt="Logo da Dindin"></a>
+            </div>
+            <nav class="links2">
+                <a href="" style="left: 1050px ;">Cursos</a>
+                <a href="" style="left: 1172px">Blog</a>
+                <a href="" style="left: 1264px">Contato</a>
+            </nav>
         </div>
-        
-      </header>
-
-    <main>
-
+    </header>
+    <main class="main-contato pb-25">
+        <section class="contato">
+            <aside>
+                <h1>Contato</h1>
+                <form action="">
+                        <input type="text" placeholder="nome">
+                        <input type="text" placeholder="email">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="mensagem"></textarea>     
+                </form>
+                <button>entrar</button>
+            </aside>
+            <img src="img/ilustra-contato.png" alt="">
+        </section>
+    
     </main>
-
     <footer>
-
-        <img src="midia/logo-footer.png" alt="Logo DINDIN" id="logo-footer" />
-
-        <nav class="link-footer">
-            <a href="">cursos</a>
-            <a href="">blog</a>
-            <a href="">contato</a>
-        </nav>
-
-        <div class="button-footer">
-            <button>quero ser prof</button>
-            <button>aqui tem outro link</button>
+        <div class="footer">
+            <div class="logo">
+                <img src="img/logo-footer.png" alt="">
+            </div>
+            <nav class="links3" style="display:flex; flex-direction: column;">
+                <a href="">Cursos</a>
+                <a href="">Blog</a>
+                <a href="">Contato</a>
+            </nav>
+            <div class="links">
+                <div><a href="" style="text-decoration:none;">quero ser prof</a></div>
+                <div><a href="" style="text-decoration:none; left:auto"> aqui tem outro link</a></div>
+            </div>
         </div>
-
     </footer>
 
 
