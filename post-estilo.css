@@ -99,8 +99,8 @@ a {
 /* segundo section */
 
 .segundo-post {
-    height: 730px;
-    padding: 4% 7% 0% 7%;
+    /* height: 730px; */
+    padding: 4% 7%  7%;
     background-color: #F6F6F6;
 }
 
@@ -115,6 +115,7 @@ a {
 .conteiner {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     margin-top: 6%;
