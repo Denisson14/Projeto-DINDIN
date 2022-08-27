@@ -40,7 +40,7 @@ nav{
 .sec1{
 
     display: flex;
-    padding: 3vw 10vw 5vw 7vw; 
+    padding: 3vw 15vw 5vw 7vw; 
     
     justify-content: space-evenly;  
     
@@ -50,6 +50,7 @@ nav{
     
     display: flex;
     justify-content: center;
+    
     
     
     
@@ -88,7 +89,7 @@ font-family: 'Ubuntu';
 
 h2{
 
-margin-left: 17%;
+margin-left: 174%;
 
 font-family: 'Ubuntu';
 font-style: normal;
