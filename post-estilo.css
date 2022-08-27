@@ -1,35 +1,30 @@
 * {
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0px auto;
     font-family: 'Ubuntu', sans-serif;
 }
 
-header {
-    background-color: #2E948A;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px ;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-    
-}
-
-.header{
-    display: flex;
-    min-width: 1440px;
-    padding: 0 130px;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-nav{
+.cabeçalho {
+    background-color: #419488;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    height: 117px;
 }
 
-.lista a{
-    margin-right: 42px;
-    color: #FDFDFD;
-    
-    
+#logo-header {
+    height: 101, 43px;
+}
+
+.link-header {
+    display: flex;
+}
+
+.link-header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF; 
+    margin-right: 8%;
 }
 
 /* conteúdo principal do post */
@@ -115,8 +110,8 @@ nav{
 }
 
 #poupando {
-    width: 2,;
-    /* height: 270px; */
+    width: 288px;
+    height: 270px;
 }
 
 #investimento {
